@@ -1,0 +1,14 @@
+{
+    "autoload":{
+
+        "psr-4": {
+    
+            "LOMU\\":"app"
+    
+        }
+    
+    },
+    "require": {
+        "dcblogdev/pdo-wrapper": "^2.0"
+    }
+}
