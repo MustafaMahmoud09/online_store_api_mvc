@@ -1,6 +1,7 @@
 <?php
     
        namespace LOMU\models\v1;
+       use Exception;
        use LOMU\core\Model;
        use PDO;
 
@@ -15,9 +16,9 @@
                function register($data){
                    
                      try{ 
-                            
-                            return parent::connectinon()->insert('customer', $data );
                     
+                            return parent::connectinon()->insert('customer', $data );
+
                     }//end try
                    
                     catch(Exception){

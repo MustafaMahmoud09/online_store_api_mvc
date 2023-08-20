@@ -1,6 +1,7 @@
 <?php
     
        namespace LOMU\models\v1;
+       use Exception;
        use LOMU\core\Model;
        use PDO;
 
